@@ -1,0 +1,35 @@
+{
+    "device":{
+        "ipv4_address": "192.168.100.1", 
+        "port": "502",
+        "unit_id": 1,
+        "polling_time": 5
+
+    },
+    "registers":[{
+        "name" : "temperature",
+        "address": "3000",
+        "format": "float32",
+        "unit_measure": "°C",
+        "endianless": "big"
+    },
+    {
+        "name" : "pressure",
+        "address": "3002",
+        "format": "float32",
+        "unit_measure": "°bar",
+        "endianless": "big"
+
+    },
+    {
+        "name" : "frequency",
+        "address": "3004",
+        "format": "float32",
+        "unit_measure": "Hz",
+        "endianless": "big"
+
+    }]
+       
+
+}
+    
